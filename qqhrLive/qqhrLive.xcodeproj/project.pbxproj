@@ -12,6 +12,10 @@
 		BC5A212C2618E46D00103AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A212A2618E46D00103AE3 /* Main.storyboard */; };
 		BC5A212E2618E46D00103AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5A212D2618E46D00103AE3 /* Assets.xcassets */; };
 		BC5A21312618E46D00103AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A212F2618E46D00103AE3 /* LaunchScreen.storyboard */; };
+		BC5A214D2618F02300103AE3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A214B2618F02300103AE3 /* Home.storyboard */; };
+		BC5A21502618F05000103AE3 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A214F2618F05000103AE3 /* Live.storyboard */; };
+		BC5A21542618F06E00103AE3 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A21522618F06E00103AE3 /* Follow.storyboard */; };
+		BC5A21572618F08100103AE3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A21562618F08100103AE3 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		BC5A212D2618E46D00103AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5A21302618E46D00103AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5A21322618E46D00103AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5A214C2618F02300103AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = qqhrLive/Classes/Main/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		BC5A214F2618F05000103AE3 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		BC5A21532618F06E00103AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = qqhrLive/Classes/Main/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		BC5A21562618F08100103AE3 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,6 @@
 				BC5A213B2618E9AB00103AE3 /* Classes */,
 				BC5A21242618E46D00103AE3 /* AppDelegate.swift */,
 				BC5A21262618E46D00103AE3 /* SceneDelegate.swift */,
-				BC5A212A2618E46D00103AE3 /* Main.storyboard */,
 				BC5A212D2618E46D00103AE3 /* Assets.xcassets */,
 				BC5A212F2618E46D00103AE3 /* LaunchScreen.storyboard */,
 				BC5A21322618E46D00103AE3 /* Info.plist */,
@@ -116,6 +123,11 @@
 		BC5A21412618E9AB00103AE3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A212A2618E46D00103AE3 /* Main.storyboard */,
+				BC5A214B2618F02300103AE3 /* Home.storyboard */,
+				BC5A214F2618F05000103AE3 /* Live.storyboard */,
+				BC5A21522618F06E00103AE3 /* Follow.storyboard */,
+				BC5A21562618F08100103AE3 /* Profile.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -180,6 +192,10 @@
 				BC5A21312618E46D00103AE3 /* LaunchScreen.storyboard in Resources */,
 				BC5A212E2618E46D00103AE3 /* Assets.xcassets in Resources */,
 				BC5A212C2618E46D00103AE3 /* Main.storyboard in Resources */,
+				BC5A21502618F05000103AE3 /* Live.storyboard in Resources */,
+				BC5A214D2618F02300103AE3 /* Home.storyboard in Resources */,
+				BC5A21572618F08100103AE3 /* Profile.storyboard in Resources */,
+				BC5A21542618F06E00103AE3 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +228,22 @@
 				BC5A21302618E46D00103AE3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BC5A214B2618F02300103AE3 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5A214C2618F02300103AE3 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		BC5A21522618F06E00103AE3 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5A21532618F06E00103AE3 /* Base */,
+			);
+			name = Follow.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
