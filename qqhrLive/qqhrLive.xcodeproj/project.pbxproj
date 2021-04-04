@@ -16,6 +16,8 @@
 		BC5A21502618F05000103AE3 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A214F2618F05000103AE3 /* Live.storyboard */; };
 		BC5A21542618F06E00103AE3 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A21522618F06E00103AE3 /* Follow.storyboard */; };
 		BC5A21572618F08100103AE3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5A21562618F08100103AE3 /* Profile.storyboard */; };
+		BC5A216D261A146500103AE3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A216C261A146500103AE3 /* HomeViewController.swift */; };
+		BC5A2173261A1F2E00103AE3 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A2172261A1F2E00103AE3 /* UIBarButtonItem-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BC5A214F2618F05000103AE3 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		BC5A21532618F06E00103AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = qqhrLive/Classes/Main/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
 		BC5A21562618F08100103AE3 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		BC5A216C261A146500103AE3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BC5A2172261A1F2E00103AE3 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		BC5A213D2618E9AB00103AE3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A2171261A1EF000103AE3 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				BC5A214B2618F02300103AE3 /* Home.storyboard */,
+				BC5A216C261A146500103AE3 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,6 +173,7 @@
 		BC5A215F261A126F00103AE3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A212A2618E46D00103AE3 /* Main.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,7 +188,6 @@
 		BC5A2161261A126F00103AE3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BC5A212A2618E46D00103AE3 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,6 +256,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BC5A2171261A1EF000103AE3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BC5A2172261A1F2E00103AE3 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +342,8 @@
 			files = (
 				BC5A21252618E46D00103AE3 /* AppDelegate.swift in Sources */,
 				BC5A21272618E46D00103AE3 /* SceneDelegate.swift in Sources */,
+				BC5A2173261A1F2E00103AE3 /* UIBarButtonItem-Extension.swift in Sources */,
+				BC5A216D261A146500103AE3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
