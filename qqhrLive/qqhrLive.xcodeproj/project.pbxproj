@@ -77,6 +77,7 @@
 			children = (
 				BC5A21412618E9AB00103AE3 /* Main */,
 				BC5A213C2618E9AB00103AE3 /* Home */,
+				BC5A214B2618F02300103AE3 /* Home.storyboard */,
 				BC5A21402618E9AB00103AE3 /* Live */,
 				BC5A213E2618E9AB00103AE3 /* Follow */,
 				BC5A213F2618E9AB00103AE3 /* Profile */,
@@ -88,7 +89,9 @@
 		BC5A213C2618E9AB00103AE3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				BC5A214B2618F02300103AE3 /* Home.storyboard */,
+				BC5A215C261A10D800103AE3 /* Controller */,
+				BC5A215D261A10D800103AE3 /* Model */,
+				BC5A215B261A10D800103AE3 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -130,6 +133,27 @@
 				BC5A212A2618E46D00103AE3 /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		BC5A215B261A10D800103AE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC5A215C261A10D800103AE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC5A215D261A10D800103AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
