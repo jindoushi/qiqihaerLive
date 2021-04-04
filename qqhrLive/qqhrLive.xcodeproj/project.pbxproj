@@ -88,6 +88,7 @@
 		BC5A213C2618E9AB00103AE3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A214B2618F02300103AE3 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -102,6 +103,7 @@
 		BC5A213E2618E9AB00103AE3 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A21522618F06E00103AE3 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -109,6 +111,7 @@
 		BC5A213F2618E9AB00103AE3 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A21562618F08100103AE3 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -116,6 +119,7 @@
 		BC5A21402618E9AB00103AE3 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A214F2618F05000103AE3 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -124,10 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				BC5A212A2618E46D00103AE3 /* Main.storyboard */,
-				BC5A214B2618F02300103AE3 /* Home.storyboard */,
-				BC5A214F2618F05000103AE3 /* Live.storyboard */,
-				BC5A21522618F06E00103AE3 /* Follow.storyboard */,
-				BC5A21562618F08100103AE3 /* Profile.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
