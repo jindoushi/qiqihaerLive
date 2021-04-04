@@ -77,7 +77,6 @@
 			children = (
 				BC5A21412618E9AB00103AE3 /* Main */,
 				BC5A213C2618E9AB00103AE3 /* Home */,
-				BC5A214B2618F02300103AE3 /* Home.storyboard */,
 				BC5A21402618E9AB00103AE3 /* Live */,
 				BC5A213E2618E9AB00103AE3 /* Follow */,
 				BC5A213F2618E9AB00103AE3 /* Profile */,
@@ -89,9 +88,9 @@
 		BC5A213C2618E9AB00103AE3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				BC5A215C261A10D800103AE3 /* Controller */,
 				BC5A215D261A10D800103AE3 /* Model */,
 				BC5A215B261A10D800103AE3 /* View */,
+				BC5A215C261A10D800103AE3 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -106,10 +105,9 @@
 		BC5A213E2618E9AB00103AE3 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				BC5A2166261A12AA00103AE3 /* Controller */,
 				BC5A2167261A12AA00103AE3 /* Model */,
 				BC5A2168261A12AA00103AE3 /* View */,
-				BC5A21522618F06E00103AE3 /* Follow.storyboard */,
+				BC5A2166261A12AA00103AE3 /* Controller */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -117,10 +115,9 @@
 		BC5A213F2618E9AB00103AE3 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				BC5A216A261A12B700103AE3 /* Controller */,
 				BC5A216B261A12B700103AE3 /* Model */,
 				BC5A2169261A12B700103AE3 /* View */,
-				BC5A21562618F08100103AE3 /* Profile.storyboard */,
+				BC5A216A261A12B700103AE3 /* Controller */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -128,10 +125,9 @@
 		BC5A21402618E9AB00103AE3 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				BC5A2163261A128B00103AE3 /* Controller */,
 				BC5A2162261A128B00103AE3 /* Model */,
 				BC5A2164261A128B00103AE3 /* View */,
-				BC5A214F2618F05000103AE3 /* Live.storyboard */,
+				BC5A2163261A128B00103AE3 /* Controller */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -139,10 +135,9 @@
 		BC5A21412618E9AB00103AE3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				BC5A215F261A126F00103AE3 /* Controller */,
 				BC5A2160261A126F00103AE3 /* Model */,
 				BC5A2161261A126F00103AE3 /* View */,
-				BC5A212A2618E46D00103AE3 /* Main.storyboard */,
+				BC5A215F261A126F00103AE3 /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -157,6 +152,7 @@
 		BC5A215C261A10D800103AE3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A214B2618F02300103AE3 /* Home.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +181,7 @@
 		BC5A2161261A126F00103AE3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A212A2618E46D00103AE3 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +196,7 @@
 		BC5A2163261A128B00103AE3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A214F2618F05000103AE3 /* Live.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +211,7 @@
 		BC5A2166261A12AA00103AE3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A21522618F06E00103AE3 /* Follow.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -241,6 +240,7 @@
 		BC5A216A261A12B700103AE3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A21562618F08100103AE3 /* Profile.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
